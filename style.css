@@ -5,6 +5,11 @@
 }
 :root{
     --text-color:white;
+    --bg-url:url(./assets/bg-mobile.jpg);
+
+}
+.ligth{
+    --text-colot:black;
 }
 body{
     /*
@@ -17,7 +22,7 @@ body{
 }
 body * { 
     font-family: "inter", sans-serif;
-    color:; var
+    color:var(--text-color);
 }
 #container{
     width: 360px;
@@ -61,7 +66,7 @@ ul li a{
 /* pseudo-selector*/
 ul li a:hover{
     background: rgba(255, 255, 255, 0.05);
-    border: 1.5px solid white;
+    border: 1.5px solid var(--text-color);
 }
 /* social links*/
 #social-links{
