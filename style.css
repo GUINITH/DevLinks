@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --text-color:white;
+}
 body{
     /*
     background-image: url(./assets/bg-mobile.jpg);
@@ -14,7 +17,7 @@ body{
 }
 body * { 
     font-family: "inter", sans-serif;
-    color: #ffff;
+    color:; var
 }
 #container{
     width: 360px;
@@ -79,4 +82,8 @@ ul li a:hover{
     background: rgba(255, 255, 255, 0.2);
 }
 
-
+footer{
+    padding: 24px;
+    text-align: center;
+    font-size: 14px;
+}
